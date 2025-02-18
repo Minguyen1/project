@@ -1,5 +1,7 @@
 @extends('admin.layouts')
 
 @section('content')
-    <h2>Đây là trang Products</h2>
+    <div class="container">
+        <h2>Tất cả sản phẩm</h2>
+    </div>
 @endsection
