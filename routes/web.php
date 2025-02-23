@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('admin.layouts');
-})->name('home');
+    return view('welcome');
+});
 
-Route::get('/product', function () {
-    return view('admin.products.index');
-})->name('admin.products');
+// Route::get('/product', function () {
+//     return view('admin.products.index');
+// })->name('admin.products');
